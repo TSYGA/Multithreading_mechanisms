@@ -29,8 +29,8 @@ int main()
 
     fscanf(file, "%d", &K);
     fscanf(file, "%d", &N);
+    
     mas = (int*)calloc(N, sizeof(int));
-
     for (int i = 0; i < N; i++)
         fscanf(file, "%ld", &mas[i]);
 
